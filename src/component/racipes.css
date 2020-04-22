@@ -1,0 +1,40 @@
+.food-sec {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+  width: 48%;
+  display: inline-block;
+  margin: 1%;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+.food-sec h1 {
+  font-size: 30px;
+}
+.food-sec img {
+  width: 56%;
+  margin: 0 3%;
+}
+.food-sec ul {
+  height: 146px;
+  position: absolute;
+  right: 23px;
+  top: 18%;
+  line-height: 34px;
+}
+.food-sec div {
+}
+.food-sec ul li {
+}
+.food-sec p {
+}
