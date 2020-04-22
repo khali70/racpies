@@ -1,0 +1,29 @@
+.s-form {
+  padding: 20px;
+}
+.s-form input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  padding: 7px;
+  outline: 0;
+  color: #fff;
+  transition: background-color 1s ease-in-out;
+}
+.s-form input[type="text"]:focus {
+  background-color: #66666645;
+}
+.s-form input[type="submit"] {
+  padding: 10px;
+  margin-left: 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  font-size: 17px;
+  font-weight: bold;
+  transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out;
+}
+.s-form input[type="submit"]:hover {
+  color: black;
+  background-color: #fff;
+}

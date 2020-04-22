@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #000;
+  color: #fff;
+  overflow: hidden;
+  text-transform: capitalize;
+  font: 20px bold;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+/* #252f31 */
+.navbar h2 {
+  float: left;
+}
+.navbar h2 span {
+  color: #2ecc71;
+}
+
+.navbar ul {
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+  float: right;
+}
+
+.navbar ul li {
+  float: right;
+  padding: 10px;
+}

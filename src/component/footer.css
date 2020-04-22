@@ -1,0 +1,58 @@
+footer {
+  color: white;
+  background-color: black;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  height: fit-content;
+  margin-top: 5px;
+  text-align: center;
+}
+
+footer span.contact {
+  display: block;
+  margin: 10px 0 5px 0;
+  font-size: 35px;
+  color: #666;
+}
+
+footer .social {
+  width: 100%;
+}
+
+footer .social ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+footer .social ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+footer .social ul a {
+  font-size: 18px;
+  color: #1a8186;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fbfbfb;
+}
+footer ul a:hover {
+  color: #27b5bb;
+  border: 1px solid #27b5bb;
+  opacity: 0.5;
+}
+footer .social ul i {
+  color: #1a8186;
+  padding: 5px;
+  border-radius: 3px;
+}
+.copy span {
+  font-size: 20px;
+}
+footer .copy span a {
+  color: #1a8186;
+}
+footer .copy span a:hover {
+  color: #27b5bb;
+}
