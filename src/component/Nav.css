@@ -16,8 +16,9 @@
 }
 /* #252f31 */
 .navbar h2 {
-  margin: auto auto auto 0;
+  margin: auto auto auto 15px;
   font-family: "Dancing Script", cursive;
+  flex: 1 2 100px;
 }
 .navbar h2 span {
   color: #2ecc71;
@@ -30,6 +31,10 @@
   overflow: hidden;
   display: flex;
   flex-flow: row wrap;
+  margin-right: 20px;
+  flex: 1 1 200px;
+  /* width: 16px; */
+  min-width: 255px;
 }
 
 .navbar ul li {

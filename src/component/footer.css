@@ -8,6 +8,7 @@ footer {
 }
 footer .contact .container {
   display: flex;
+  flex-flow: row wrap;
 }
 .contact {
   background-color: #252f31;
@@ -19,7 +20,7 @@ footer .contact .container {
   /* float: left; */
   /* width: 50%; */
   margin-right: 5%;
-  flex: 1 1;
+  flex: 1 1 350px;
 }
 
 .contact h2 {
@@ -40,7 +41,8 @@ footer .contact .container {
 .contact .form {
   /* float: left; */
   width: 45%;
-  flex: 1 1;
+  flex: 1 1 350px;
+  margin-left: 5%;
 }
 
 .contact .form label {

@@ -2,18 +2,9 @@
   padding: 20px;
   text-align: center;
   position: relative;
-}
-.s-form label {
-  position: absolute;
-  left: 46%;
-  top: 30px;
-  transform: translateX(-50%);
-  font-size: 16px;
-  transition: opacity 1s ease-in, top 1s ease-out;
-}
-.s-form input[type="text"]:focus ~ label {
-  top: 6px;
-  opacity: 0;
+  flex: 3 1 185px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .s-form input[type="text"] {
   background-color: transparent;
@@ -21,20 +12,29 @@
   border-bottom: 2px solid #fff;
   padding: 7px;
   outline: 0;
-  transition: width 1s ease-in-out;
-  width: 17%;
+  transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out;
+  width: 70%;
+  font-size: 21px;
+  font-weight: 900;
+  color: #252f31;
 }
 .s-form input[type="text"]:focus {
-  width: 22%;
+  background-color: #fff;
+  border: 2px solid #fff;
 }
 .s-form input[type="submit"] {
   padding: 10px;
-  margin-left: 20px;
+  margin-left: 1%;
   background-color: transparent;
-  border: 2px solid #252f31;
+  border: 2px solid #2ecc71;
+  border-radius: 34px;
   font-size: 17px;
   font-weight: bold;
-  transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out;
+  width: fit-content;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  color: #fff;
+  /* line-height: 9px; */
+  padding-bottom: 12px;
 }
 .s-form input[type="submit"]:hover {
   color: black;

@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Nav from "./component/navbar";
 import Hero from "./component/hero";
 import Filer from "./component/filer";
-import S_bar from "./component/search form";
 import Secs from "./component/racipe";
 import Portfolio from "./component/portofolio";
 import Footer from "./component/footer";
@@ -49,14 +48,13 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <Nav />
-        <Hero />
-        <Filer />
-        <S_bar
+        <Nav
           search={this.search}
           key_search={this.state.key_search}
           keychange={this.keychange}
         />
+        <Hero />
+        <Filer />
         <div className="sec-container">
           {this.state.racipes.map((recipe) => {
             console.log(recipe.label);

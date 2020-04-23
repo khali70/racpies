@@ -8,13 +8,12 @@ const S_bar = (props) => {
         type="text"
         name="key_search"
         className="s-text"
+        placeholder="enter your order"
         value={props.key_search}
         onChange={props.keychange}
       />
-      <label>Enter The Racipe You Search For</label>
       <input type="submit" className="s-text" value="search" />
     </form>
   );
 };
-// key_search = e.target.elements.key_search.value;
 export default S_bar;
