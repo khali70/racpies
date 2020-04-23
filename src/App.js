@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Nav from "./component/navbar";
-import S_bar from "./component/search form";
-import Secs from "./component/racipe";
-import Footer from "./component/footer";
 import Hero from "./component/hero";
 import Filer from "./component/filer";
+import S_bar from "./component/search form";
+import Secs from "./component/racipe";
+import Portfolio from "./component/portofolio";
+import Footer from "./component/footer";
 import "./App.css";
 // key=6f4036bef9328dbf2e2e3d00735724f5
 //id=718b910b
@@ -69,6 +70,7 @@ class App extends Component {
             );
           })}
         </div>
+        <Portfolio />
         <Footer />
       </div>
     );

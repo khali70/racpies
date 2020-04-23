@@ -8,10 +8,15 @@ const Nav = () => {
           Fast<span>Healthy</span>
         </h2>
         <ul>
-          <li>contact us</li>
-          <li>about us</li>
-          <li>menu</li>
-          <li>home</li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+          <li>
+            <a href="#">menu</a>
+          </li>
+          <li>
+            <a href="#">home</a>
+          </li>
         </ul>
       </div>
     </div>

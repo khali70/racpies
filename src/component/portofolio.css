@@ -1,0 +1,79 @@
+.portfolio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio h2 {
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: 1200;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  color: #444;
+}
+
+.portfolio p {
+  text-transform: capitalize;
+  font-size: 21px;
+  font-family: monospace;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #555;
+}
+
+.portfolio .ourwork {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.portfolio .ourwork > div {
+  width: 31%;
+  height: 250px;
+  margin: 1%;
+  padding: 4px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 12px #ccc;
+  overflow: hidden;
+  flex: 1 1 315px;
+}
+.portfolio .ourwork > div img {
+  width: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 1s ease-in-out;
+}
+.portfolio .ourwork > div:last-child img {
+  width: 440px;
+}
+.portfolio .ourwork > div img:hover {
+  width: 470px;
+}
+@media screen and (max-width: 1000px) {
+  .portfolio .ourwork > div img {
+    width: 480px;
+  }
+  .portfolio .ourwork > div img:hover {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 675px) {
+  .portfolio .ourwork > div img {
+    width: 470px;
+  }
+  .portfolio .ourwork > div img:hover {
+    width: 520px;
+  }
+  .portfolio .ourwork {
+    margin: auto;
+    width: 73%;
+    overflow: hidden;
+    height: 516px;
+  }
+}
+/*end portfolio*/

@@ -1,21 +1,50 @@
-.about-me {
-  background: beige;
-  margin: 20px;
+/* start features*/
+
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
 }
-.healthy {
+
+.features .feat {
+  float: left;
+  width: 50%;
+  height: 150px;
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #888;
+}
+.features .feat h2 {
+  text-transform: uppercase;
+  font-size: 26px;
+  font-family: monospace;
+  font-weight: 1200;
+  letter-spacing: 5px;
+  background-color: beige;
+  color: #555;
+}
+.about-me,
+.graper .sec {
+  background: beige;
+}
+.healthy,
+.graper div.color {
   background: #f2f2f2;
   overflow: hidden;
-  margin: 20px;
 }
 .healthy5 {
   background: beige;
   overflow: hidden;
   border-width: 1px 0;
-  margin: 20px;
 }
 .about-me .container,
 .healthy .container,
-.healthy5 .container {
+.healthy5 .container,
+.sec .container {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -23,28 +52,33 @@
   flex-flow: row wrap;
   margin: auto;
 }
-.healthy .container {
+.healthy .container,
+.sec .con-l {
   flex-flow: row wrap-reverse;
 }
 .healthy5 .image5 img,
 .healthy .image img,
-.about-me .img img {
+.about-me .img img,
+.sec .img img {
   width: 100%;
   height: 100%;
 }
 .healthy5 .image5,
 .healthy .image,
-.about-me .img {
+.about-me .img,
+.sec .img {
   min-width: 300px;
   flex: 1;
 }
-.healthy .image {
+.healthy .image,
+.sec .l {
   order: 2;
 }
 
 .healthy5 .information5,
 .about-me .info,
-.healthy .information {
+.healthy .information,
+.sec .inf {
   margin-top: 40px;
   /* width: 40vw; */
   box-sizing: border-box;
@@ -53,3 +87,67 @@
   flex: 1;
   order: 1;
 }
+
+.graper h2 {
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+.graper h4 {
+  text-transform: capitalize;
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.graper p {
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+/*start description*/
+
+.choose {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background-color: #f2f2f2;
+  height: auto;
+  text-align: center;
+}
+
+.description .choose h2 {
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: 1200;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: #666;
+}
+
+.description .choose p {
+  text-indent: 90px;
+  text-transform: capitalize;
+  font-size: 21px;
+  font-family: monospace;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #555;
+}
+.description .choose button {
+  background: none;
+  border: 3px solid #2dcc70;
+  padding: 10px 30px;
+  color: 2dcc70;
+  margin-top: 20px;
+  margin-left: 40;
+  font-weight: bolder;
+}
+
+/*end description*/

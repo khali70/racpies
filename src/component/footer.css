@@ -5,54 +5,122 @@ footer {
   width: 100%;
   height: fit-content;
   margin-top: 5px;
-  text-align: center;
+}
+footer .contact .container {
+  display: flex;
+}
+.contact {
+  background-color: #252f31;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.contact .info {
+  /* float: left; */
+  /* width: 50%; */
+  margin-right: 5%;
+  flex: 1 1;
 }
 
-footer span.contact {
+.contact h2 {
+  color: #fff;
+  margin-left: 30px;
+}
+
+.contact p {
+  color: #6a6e71;
+  margin-left: 30px;
+  line-height: 1.7;
+}
+
+.contact p strong {
+  color: #d1d6da;
+}
+
+.contact .form {
+  /* float: left; */
+  width: 45%;
+  flex: 1 1;
+}
+
+.contact .form label {
   display: block;
-  margin: 10px 0 5px 0;
-  font-size: 35px;
-  color: #666;
+  color: #d1d6da;
+  margin: 10px 0px;
 }
 
-footer .social {
-  width: 100%;
+.contact .form input[type="text"] {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
 }
 
-footer .social ul {
-  margin: 0px;
-  padding: 0px;
+.contact .form textarea {
+  background-color: #4b5557;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  width: 80%;
+  height: 300px;
+}
+
+.contact .form input[type="submit"] {
+  background-color: #191e22;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #191e22;
+  color: #6a6e71;
+  padding: 20px 0px;
   text-align: center;
 }
-footer .social ul li {
-  display: inline-block;
-  margin: 10px;
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0 0;
 }
 
-footer .social ul a {
-  font-size: 18px;
-  color: #1a8186;
-  border: 1px solid #ccc;
-  padding: 5px;
-  border-radius: 3px;
-  background-color: #fbfbfb;
+.footer ul li {
+  display: inline-block;
 }
-footer ul a:hover {
-  color: #27b5bb;
-  border: 1px solid #27b5bb;
+.footer ul li a {
+  color: #191e22;
+  display: block;
+  transition: opacity 0.4s ease-in-out;
+}
+.footer ul li a:hover {
   opacity: 0.5;
 }
-footer .social ul i {
-  color: #1a8186;
-  padding: 5px;
-  border-radius: 3px;
+.footer ul li a i {
+  padding: 6px;
+  margin: 5px;
+  width: 22px;
+  border-radius: 50%;
+  line-height: 100%;
 }
-.copy span {
-  font-size: 20px;
+.footer ul li a .fa-github {
+  background-color: #517fa6;
 }
-footer .copy span a {
-  color: #1a8186;
+.footer ul li a .fa-youtube-play {
+  color: #fff;
+  background-color: #ca3737;
 }
-footer .copy span a:hover {
-  color: #27b5bb;
+.footer ul li a .fa-twitter {
+  background-color: #517fa6;
 }
+.footer ul li a .fa-facebook {
+  background-color: #3a589b;
+}
+/* fa-github
+fa-youtube-play
+fa-twitter
+fa-facebook
+
+*/
