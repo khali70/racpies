@@ -6,17 +6,19 @@
   padding-bottom: 40px;
   text-align: center;
 }
+.features .container {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .features .feat {
-  float: left;
-  width: 50%;
-  height: 150px;
+  height: auto;
   font-size: 20px;
   font-weight: 800;
-  word-spacing: 10px;
   letter-spacing: 1px;
   text-transform: capitalize;
   color: #888;
+  flex: 1 1 170px;
 }
 .features .feat h2 {
   text-transform: uppercase;
@@ -124,7 +126,7 @@
 .description .choose h2 {
   font-size: 30px;
   font-family: monospace;
-  font-weight: 1200;
+  font-weight: 900;
   letter-spacing: 5px;
   text-transform: capitalize;
   text-decoration: underline;
@@ -132,7 +134,7 @@
 }
 
 .description .choose p {
-  text-indent: 90px;
+  /* text-indent: 90px; */
   text-transform: capitalize;
   font-size: 21px;
   font-family: monospace;
@@ -149,5 +151,8 @@
   margin-left: 40;
   font-weight: bolder;
 }
-
+@media screen and (max-width: 650) {
+  .description .choose p {
+  }
+}
 /*end description*/
