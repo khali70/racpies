@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #000;
+  background-color: #252f31;
   color: #fff;
   overflow: hidden;
   text-transform: capitalize;
@@ -8,9 +8,15 @@
   width: 100%;
   z-index: 5;
 }
+.navbar .container {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
 /* #252f31 */
 .navbar h2 {
-  float: left;
+  margin: auto auto auto 0;
 }
 .navbar h2 span {
   color: #2ecc71;
@@ -20,10 +26,11 @@
   list-style: none;
   padding-left: 0;
   overflow: hidden;
-  float: right;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .navbar ul li {
-  float: right;
   padding: 10px;
+  width: fit-content;
 }

@@ -9,7 +9,7 @@ const Filer = () => {
       <div className="about-me">
         <div className="container">
           <div className="img">
-            <img src={img1} height="300" width="400" alt="test" />
+            <img src={img1} alt="test" />
           </div>
 
           <div className="info">
@@ -22,7 +22,7 @@ const Filer = () => {
       <div className="healthy">
         <div className="container">
           <div className="image">
-            <img src={img2} height="300" width="400" alt="test" />
+            <img src={img2} alt="test" />
           </div>
 
           <div className="information">
@@ -35,7 +35,7 @@ const Filer = () => {
       <div className="healthy5">
         <div className="container">
           <div className="image5">
-            <img src={img3} height="300" width="400" alt="test" />
+            <img src={img3} alt="test" />
           </div>
 
           <div className="information5">

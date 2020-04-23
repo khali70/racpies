@@ -6,12 +6,12 @@ const Secs = (props) => {
       <img src={props.image} alt="" />
       <h1>{props.title}</h1>
       <ul>
-        ingredients:-
+        <span> ingredients:- </span>
         {props.ingredients.map((ingredient) => (
           <li> {ingredient.text} </li>
         ))}
       </ul>
-      <p>Calories:- {props.calories}</p>
+      <p>Cal:{Math.floor(props.calories)}</p>
     </div>
   );
 };

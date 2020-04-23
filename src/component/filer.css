@@ -1,50 +1,55 @@
 .about-me {
-  background: #000;
-  overflow: hidden;
-
+  background: beige;
   margin: 20px;
-}
-
-.about-me .img {
-  float: left;
-}
-
-.about-me .info {
-  float: right;
-  color: #fff;
-  margin-top: 40px;
 }
 .healthy {
-  background: #000;
+  background: #f2f2f2;
   overflow: hidden;
-  border-width: 1px 0;
-  border-style: dotted;
-  border-color: #888;
-  padding: 20px;
-}
-
-.healthy .image {
-  float: right;
-}
-
-.healthy .information {
-  float: left;
-  color: #fff;
-  margin-top: 40px;
+  margin: 20px;
 }
 .healthy5 {
-  background: #000;
+  background: beige;
   overflow: hidden;
   border-width: 1px 0;
   margin: 20px;
 }
-
-.healthy5 .image5 {
-  float: left;
+.about-me .container,
+.healthy .container,
+.healthy5 .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: row wrap;
+  margin: auto;
+}
+.healthy .container {
+  flex-flow: row wrap-reverse;
+}
+.healthy5 .image5 img,
+.healthy .image img,
+.about-me .img img {
+  width: 100%;
+  height: 100%;
+}
+.healthy5 .image5,
+.healthy .image,
+.about-me .img {
+  min-width: 300px;
+  flex: 1;
+}
+.healthy .image {
+  order: 2;
 }
 
-.healthy5 .information5 {
-  float: right;
-  color: #fff;
+.healthy5 .information5,
+.about-me .info,
+.healthy .information {
   margin-top: 40px;
+  /* width: 40vw; */
+  box-sizing: border-box;
+  padding: 0 5px 0 30px;
+  min-width: 300px;
+  flex: 1;
+  order: 1;
 }

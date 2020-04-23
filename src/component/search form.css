@@ -1,5 +1,19 @@
 .s-form {
   padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.s-form label {
+  position: absolute;
+  left: 46%;
+  top: 30px;
+  transform: translateX(-50%);
+  font-size: 16px;
+  transition: opacity 1s ease-in, top 1s ease-out;
+}
+.s-form input[type="text"]:focus ~ label {
+  top: 6px;
+  opacity: 0;
 }
 .s-form input[type="text"] {
   background-color: transparent;
@@ -7,18 +21,17 @@
   border-bottom: 2px solid #fff;
   padding: 7px;
   outline: 0;
-  color: #fff;
-  transition: background-color 1s ease-in-out;
+  transition: width 1s ease-in-out;
+  width: 17%;
 }
 .s-form input[type="text"]:focus {
-  background-color: #66666645;
+  width: 22%;
 }
 .s-form input[type="submit"] {
   padding: 10px;
   margin-left: 20px;
   background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+  border: 2px solid #252f31;
   font-size: 17px;
   font-weight: bold;
   transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out;

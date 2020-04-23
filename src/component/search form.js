@@ -11,6 +11,7 @@ const S_bar = (props) => {
         value={props.key_search}
         onChange={props.keychange}
       />
+      <label>Enter The Racipe You Search For</label>
       <input type="submit" className="s-text" value="search" />
     </form>
   );
