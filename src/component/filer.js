@@ -3,20 +3,21 @@ import "./filer.css";
 import img1 from "./imgs/1.jpg";
 import img2 from "./imgs/2.jpg";
 import img3 from "./imgs/3.jbg.jpg";
-import img19 from "./imgs/19.jpg";
 import img13 from "./imgs/13.jpg";
-import img24 from "./imgs/24.jpg";
-import img18 from "./imgs/18.jpg";
-import img10 from "./imgs/10.jpg";
-import img27 from "./imgs/27.jpg";
 import img11 from "./imgs/11.jpg";
-import img22 from "./imgs/22.jpg";
-import img9 from "./imgs/9.jpg";
 import img5 from "./imgs/5.jpg";
 const Filer = () => {
   return (
     <>
       <div className="features">
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/tDiPr-76MZM"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
         <div className="container">
           <div className="feat">
             <h2>FAST</h2>
@@ -39,7 +40,7 @@ const Filer = () => {
           </div>
         </div>
       </div>
-      <div className="graper">
+      <div className="graper" id="menu">
         <div className="about-me">
           <div className="container">
             <div className="img">
@@ -136,7 +137,13 @@ const Filer = () => {
               diet is safe with our compatiable macros even if your cheat meal.
             </p>
 
-            <button>order your meal now</button>
+            <button
+              onClick={() => {
+                window.open("./form.html");
+              }}
+            >
+              order your meal now
+            </button>
           </div>
         </div>
       </div>

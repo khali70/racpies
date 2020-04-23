@@ -8,6 +8,11 @@
   width: 100vw;
   z-index: 5;
 }
+@media screen and (max-width: 500px) {
+  .navbar {
+    height: 21vh;
+  }
+}
 .navbar .container {
   overflow: hidden;
   display: flex;
@@ -46,6 +51,7 @@
   text-decoration: none;
   font-size: 22px;
   font-weight: 600px;
+  cursor: pointer;
 }
 .navbar ul li a:hover {
   color: #30b576;

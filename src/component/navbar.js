@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import "./Nav.css";
+import { Link, animateScroll as scroll } from "react-scroll";
 import S_bar from "./search form";
 
 class Nav extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   render() {
     return (
       <div className="navbar">
@@ -17,13 +21,24 @@ class Nav extends Component {
           />
           <ul>
             <li>
-              <a href="#">contact</a>
+              <a href="./Contact.html" target="_blank">
+                contact
+              </a>
             </li>
             <li>
-              <a href="#">menu</a>
+              <Link
+                activeClass="active"
+                to="menu"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                menu
+              </Link>
             </li>
             <li>
-              <a href="#">home</a>
+              <a onClick={this.scrollToTop}>home</a>
             </li>
           </ul>
         </div>

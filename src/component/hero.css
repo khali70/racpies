@@ -1,10 +1,28 @@
 .slider {
   background-image: url("./imgs/2.jpg");
+  animation: cards 10s linear infinite;
+  animation-direction: alternate;
   background-size: cover;
   background-color: #eee;
   height: 100vh;
 }
+@keyframes cards {
+  0% {
+    background-image: url("imgs/2.jpg");
+  }
 
+  35% {
+    background-image: url("imgs/slide-1.jpg");
+  }
+
+  70% {
+    background-image: url("imgs/slide-2.jpg");
+  }
+
+  100% {
+    background-image: url("imgs/21.jpg");
+  }
+}
 .slider .title {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);

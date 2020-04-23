@@ -5,10 +5,28 @@
   padding-top: 40px;
   padding-bottom: 40px;
   text-align: center;
+  display: flex;
+  flex-flow: row-reverse wrap;
 }
+.video {
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+  box-sizing: border-box;
+  margin: 0px auto;
+  height: fit-content;
+  padding: 0 6%;
+}
+.video iframe {
+  width: 500px;
+  height: 315px;
+}
+
 .features .container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
+  width: 48%;
+  flex: 1 1 250px;
 }
 
 .features .feat {
