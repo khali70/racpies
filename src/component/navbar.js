@@ -21,9 +21,16 @@ class Nav extends Component {
           />
           <ul>
             <li>
-              <a href="./Contact.html" target="_blank">
+              <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-90}
+                duration={500}
+              >
                 contact
-              </a>
+              </Link>
             </li>
             <li>
               <Link

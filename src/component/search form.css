@@ -35,6 +35,7 @@
   color: #fff;
   /* line-height: 9px; */
   padding-bottom: 12px;
+  outline: 0;
 }
 .s-form input[type="submit"]:hover {
   color: black;

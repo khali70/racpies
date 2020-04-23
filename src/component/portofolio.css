@@ -41,7 +41,7 @@
   flex: 1 1 315px;
 }
 .portfolio .ourwork > div img {
-  width: 420px;
+  width: 425px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,17 +49,22 @@
   transition: width 1s ease-in-out;
 }
 .portfolio .ourwork > div:last-child img {
-  width: 440px;
+  width: 445px;
 }
-.portfolio .ourwork > div img:hover {
+.ourwork > .last img:hover {
   width: 470px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1005px) {
   .portfolio .ourwork > div img {
     width: 480px;
   }
   .portfolio .ourwork > div img:hover {
     width: 520px;
+  }
+  .portfolio .ourwork .last {
+    width: 50vw;
+    margin: 0 auto;
+    flex: 0 0 350px;
   }
 }
 @media screen and (max-width: 675px) {

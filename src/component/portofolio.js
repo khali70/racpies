@@ -1,7 +1,7 @@
 import React from "react";
 import "./portofolio.css";
 import img19 from "./imgs/19.jpg";
-import img13 from "./imgs/13.jpg";
+import img20 from "./imgs/20.jpg";
 import img24 from "./imgs/24.jpg";
 import img18 from "./imgs/18.jpg";
 import img10 from "./imgs/10.jpg";
@@ -21,7 +21,7 @@ const Portfolio = (props) => {
               <img src={img19} />
             </div>
             <div>
-              <img src={img13} />
+              <img src={img20} />
             </div>
             <div>
               <img src={img24} />
@@ -41,7 +41,7 @@ const Portfolio = (props) => {
             <div>
               <img src={img22} />
             </div>
-            <div>
+            <div className="last">
               <img src={img9} />
             </div>
           </div>
