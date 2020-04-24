@@ -38,29 +38,29 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer">
-        <div class="container">
+      <div className="footer">
+        <div className="container">
           <span> copyright &copy;2020 FastHealthy Inc.</span>
           <ul>
             <li>
               <a href="#">
                 {" "}
-                <i class="fa fa-facebook"></i>{" "}
+                <i className="fa fa-facebook"></i>{" "}
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-twitter"></i>
+                <i className="fa fa-twitter"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-youtube-play"></i>
+                <i className="fa fa-youtube-play"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-github"></i>
+                <i className="fa fa-github"></i>
               </a>
             </li>
           </ul>

@@ -20,6 +20,7 @@ class App extends Component {
     key_search: "",
   };
   search = async (e) => {
+    console.log("searching");
     e.preventDefault();
     const api = await fetch(
       `https://api.edamam.com/search?q=${this.state.key_search}&app_id=${api_id}&app_key=${api_key}&from=0&to=3`
@@ -56,7 +57,7 @@ class App extends Component {
         />
         <Hero />
         <Filer />
-        <div className="sec-container">
+        <div className="sec-container" id="racipes">
           {this.state.racipes.map((recipe) => {
             console.log(recipe.label);
             return (

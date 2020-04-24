@@ -7,6 +7,7 @@ class Nav extends Component {
   scrollToTop = () => {
     scroll.scrollToTop();
   };
+
   render() {
     return (
       <div className="navbar">
