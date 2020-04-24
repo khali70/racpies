@@ -12,17 +12,19 @@
   border-bottom: 2px solid #fff;
   padding: 7px;
   outline: 0;
-  transition: background-color 0.5s ease-in-out, border 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
   width: 70%;
   font-size: 21px;
   font-weight: 900;
   color: #252f31;
 }
 .s-form input[type="text"]:focus {
-  background-color: #fff;
-  border: 2px solid #fff;
+  color: #fff;
+  width: 65%;
 }
-.s-form input[type="submit"] {
+.s-form input[type="text"]: {
+}
+.s-form button {
   padding: 10px;
   margin-left: 1%;
   background-color: transparent;
@@ -37,7 +39,7 @@
   padding-bottom: 12px;
   outline: 0;
 }
-.s-form input[type="submit"]:hover {
+.s-form button:hover {
   color: black;
   background-color: #fff;
 }

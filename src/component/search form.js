@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./search form.css";
 
 const S_bar = (props) => {
@@ -12,7 +13,18 @@ const S_bar = (props) => {
         value={props.key_search}
         onChange={props.keychange}
       />
-      <input type="submit" className="s-text" value="search" />
+      <button onClick={props.search}>
+        <Link
+          activeClass="active"
+          to="racipes"
+          spy={true}
+          smooth={true}
+          offset={-90}
+          duration={500}
+        >
+          Search
+        </Link>
+      </button>
     </form>
   );
 };
